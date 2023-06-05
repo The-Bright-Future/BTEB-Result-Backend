@@ -1,0 +1,1 @@
+Tue Jun 06 2023 2:15:22 [BTEB Result] error: Cannot connect to database Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://" 

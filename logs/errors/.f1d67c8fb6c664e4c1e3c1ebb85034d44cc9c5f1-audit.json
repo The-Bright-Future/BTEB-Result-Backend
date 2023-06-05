@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/codewithashim/Web Application Drive/Bright Future/BTEB RESULT APP/backend/logs/errors/.f1d67c8fb6c664e4c1e3c1ebb85034d44cc9c5f1-audit.json",
+    "files": [
+        {
+            "date": 1685995901180,
+            "name": "/home/codewithashim/Web Application Drive/Bright Future/BTEB RESULT APP/backend/logs/errors/06-06-2023-02-errors.log",
+            "hash": "bf18dd2b28ddfe2700e69fd3075e8e28972f14468c1ece2b16fd3d8cf659f54b"
+        }
+    ],
+    "hashType": "sha256"
+}

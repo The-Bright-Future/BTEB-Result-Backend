@@ -1,12 +1,16 @@
-const mongoose = require("mongoose");
-require("dotenv").config();
+const mongoose = require('mongoose')
+const { database_url } = require('../config')
+const { logger } = require('../src/shared/loger')
+require('dotenv').config()
 
-const dbUri = `mongodb+srv://bteb-user:vUDP5yMhNdBrdx7I@btebresult.zvmlhsx.mongodb.net/bteb-result?retryWrites=true&w=majority`
+const dbUri = `${database_url}`
 
-mongoose.set("strictQuery", false);
+logger.info('DB URI: ' + database_url)
+
+mongoose.set('strictQuery', false)
 module.exports = () => {
   return mongoose.connect(dbUri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-  });
-};
+  })
+}
