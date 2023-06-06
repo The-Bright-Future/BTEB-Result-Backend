@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Bright Future\\BTEB-Result-Backend\\logs\\errors\\.9c73a5a0c082d716ea57b95d27549081c6bf7cff-audit.json",
+    "files": [
+        {
+            "date": 1686025373346,
+            "name": "C:\\Bright Future\\BTEB-Result-Backend\\logs\\errors\\06-06-2023-10-errors.log",
+            "hash": "0df7c75cffe880426550b9cf5c9e6a4021e2cc3d915f223ba29d024ba0fe998e"
+        },
+        {
+            "date": 1686042377543,
+            "name": "C:\\Bright Future\\BTEB-Result-Backend\\logs\\errors\\06-06-2023-15-errors.log",
+            "hash": "71929974f77777ce12fd908964a68b853a1d78903dff819e1334dec3477bcd4e"
+        }
+    ],
+    "hashType": "sha256"
+}
