@@ -1,13 +1,13 @@
 const ConnectDB = require('../Database/DBConnect')
 const app = require('../src/app/app')
 const { logger, errorLogger } = require('../src/shared/loger')
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8000
 
 ///////////////////////////////////////////////
 //           DB Connection And Local         //
 /////////////////////////////////////////////*/
 
-app.get('/api/', (req, res) => {
+app.get('/api/v1', (req, res) => {
   res.send('Hey Wellcome to API Server')
 })
 

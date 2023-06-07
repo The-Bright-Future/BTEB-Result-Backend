@@ -1,35 +1,36 @@
 {
-    "version": "1.0.0",
-    "main": "index.js",
-    "license": "MIT",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "nodemon Server/Server.js",
-        "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
-        "lint:fix": "eslint . --fix",
-        "prettier:check": "yarn prettier --check . --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-        "prettier:fix": "yarn prettier --write . --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-        "lint-prettier": "yarn lint:check && yarn prettier:check",
-        "fix": "yarn lint:fix && yarn prettier:check"
-    },
-    "lint-staged": {
-        "*.{js,ts,jsx,tsx}": "yarn lint-prettier"
-    },
-    "dependencies": {
-        "cors": "^2.8.5",
-        "dotenv": "^16.1.4",
-        "eslint": "^8.42.0",
-        "eslint-config-prettier": "^8.8.0",
-        "express": "^4.18.2",
-        "mongoose": "^7.2.1",
-        "nodemon": "^2.0.22",
-        "pdf-parse": "^1.1.1",
-        "prettier": "^2.8.8",
-        "winston": "^3.9.0",
-        "winston-daily-rotate-file": "^4.7.1"
-    },
-    "devDependencies": {
-        "husky": "^8.0.3",
-        "lint-staged": "^13.2.2"
-    }
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon Server/Server.js",
+    "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+    "lint:fix": "eslint . --fix",
+    "prettier:check": "yarn prettier --check . --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "prettier:fix": "yarn prettier --write . --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "lint-prettier": "yarn lint:check && yarn prettier:check",
+    "fix": "yarn lint:fix && yarn prettier:check"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": "yarn lint-prettier"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22",
+    "pdf-parse": "^1.1.1",
+    "prettier": "^2.8.8",
+    "winston": "^3.9.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2"
+  }
 }
