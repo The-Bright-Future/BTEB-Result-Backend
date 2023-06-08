@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/farhan/Desktop/Bright Future/BTEB-Resutl/BTEB-Result-Backend/logs/success/.aeb51b31b1d58b620e42a5439c97edfcde42d970-audit.json",
+    "files": [
+        {
+            "date": 1686196364516,
+            "name": "/Users/farhan/Desktop/Bright Future/BTEB-Resutl/BTEB-Result-Backend/logs/success/08-06-2023-09-success.log",
+            "hash": "63cb674dc40991c52b68ac8aa3d81cd9d119d43a24fc2f85cdbc5fb2968496a7"
+        },
+        {
+            "date": 1686196896776,
+            "name": "/Users/farhan/Desktop/Bright Future/BTEB-Resutl/BTEB-Result-Backend/logs/success/08-06-2023-10-success.log",
+            "hash": "9fe8a1ccc87a990292868b4279efb2b06ae661d72dc31507f8193c2967815e2c"
+        },
+        {
+            "date": 1686204905038,
+            "name": "/Users/farhan/Desktop/Bright Future/BTEB-Resutl/BTEB-Result-Backend/logs/success/08-06-2023-12-success.log",
+            "hash": "226f1c3c1ab68b439b48895ba80d5de174111e4825b36a2c946404febc141edb"
+        },
+        {
+            "date": 1686211804775,
+            "name": "/Users/farhan/Desktop/Bright Future/BTEB-Resutl/BTEB-Result-Backend/logs/success/08-06-2023-14-success.log",
+            "hash": "992a2d4c71c1083113bd795a429698ef8caaf7a0dbc5cdffe7178ac55cddfc5e"
+        }
+    ],
+    "hashType": "sha256"
+}
