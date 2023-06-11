@@ -17,4 +17,6 @@ const upload = multer({ storage })
 // Define the routes
 router.post('/result-upload', upload.single('pdfFile'), uploadCreateController)
 
-module.exports = router
+const resultRouter = router
+
+module.exports = resultRouter

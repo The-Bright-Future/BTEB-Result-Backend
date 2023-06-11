@@ -10,7 +10,8 @@ const resultRouter = require('../Modules/result/result.router')
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cors())
-app.use('/api', resultRouter)
+
+app.use('/api/v1', resultRouter)
 
 // =========== //
 

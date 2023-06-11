@@ -1,7 +1,7 @@
 const ConnectDB = require('../Database/DBConnect')
 const app = require('../src/app/app')
 const { logger, errorLogger } = require('../src/shared/loger')
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 7070
 
 ///////////////////////////////////////////////
 //           DB Connection And Local         //

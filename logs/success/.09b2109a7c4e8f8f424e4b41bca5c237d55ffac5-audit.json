@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/codewithashim/Web Application Drive/Bright Future/BTEB RESULT APP/Final File/BTEB-Result-Backend/logs/success/.09b2109a7c4e8f8f424e4b41bca5c237d55ffac5-audit.json",
+    "files": [
+        {
+            "date": 1686496428211,
+            "name": "/home/codewithashim/Web Application Drive/Bright Future/BTEB RESULT APP/Final File/BTEB-Result-Backend/logs/success/11-06-2023-21-success.log",
+            "hash": "d83f8ba0b768d204c0f01e3e8d4bafc38f17039f506d7d78e00105d6af723054"
+        },
+        {
+            "date": 1686502943685,
+            "name": "/home/codewithashim/Web Application Drive/Bright Future/BTEB RESULT APP/Final File/BTEB-Result-Backend/logs/success/11-06-2023-23-success.log",
+            "hash": "a77dd61f139b2539d96808c0fd2549448ad44df7c45450563d49ebb516d08f3d"
+        },
+        {
+            "date": 1686506460815,
+            "name": "/home/codewithashim/Web Application Drive/Bright Future/BTEB RESULT APP/Final File/BTEB-Result-Backend/logs/success/12-06-2023-00-success.log",
+            "hash": "0cbe8175fdf9b67f5dec39c1319c8f1e63ef8cf7c018664d2ed5c03265ff338f"
+        },
+        {
+            "date": 1686510049710,
+            "name": "/home/codewithashim/Web Application Drive/Bright Future/BTEB RESULT APP/Final File/BTEB-Result-Backend/logs/success/12-06-2023-01-success.log",
+            "hash": "cec28c6533935c51804408203a8685b7fb80f43eb47cf23038c1c6acb7a66aac"
+        }
+    ],
+    "hashType": "sha256"
+}

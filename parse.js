@@ -2,7 +2,7 @@ const fs = require('fs')
 const pdf = require('pdf-parse')
 const { errorLogger, logger } = require('./src/shared/loger')
 
-const pdfFilePath = './datafile/result.pdf'
+const pdfFilePath = './uploads/result.pdf'
 
 pdf(fs.readFileSync(pdfFilePath))
   .then(data => {
