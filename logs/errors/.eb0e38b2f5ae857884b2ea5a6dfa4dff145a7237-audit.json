@@ -34,6 +34,11 @@
             "date": 1686332559029,
             "name": "/Users/farhan/Desktop/Bright Future/BTEB-Resutl/BTEB-Result-Backend/logs/errors/09-06-2023-23-errors.log",
             "hash": "ca45bc240cc2a4e20e2780cbf9de9f33e09a8eec7ce95974eb7291858cc07ecf"
+        },
+        {
+            "date": 1686590160998,
+            "name": "/Users/farhan/Desktop/Bright Future/BTEB-Resutl/BTEB-Result-Backend/logs/errors/12-06-2023-23-errors.log",
+            "hash": "93f0973a49abc6173ecc6676d587cb3d3d07923b50f20d26ee9f8d3031d1b7ae"
         }
     ],
     "hashType": "sha256"
