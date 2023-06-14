@@ -1,0 +1,261 @@
+Wed Jun 14 2023 17:6:0 [BTEB Result] info: Server is running at port 7070 
+Wed Jun 14 2023 17:6:4 [BTEB Result] info: Connected to database  
+Wed Jun 14 2023 17:6:33 [BTEB Result] info: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] 
+Wed Jun 14 2023 17:7:31 [BTEB Result] info: Server is running at port 7070 
+Wed Jun 14 2023 17:7:35 [BTEB Result] info: Connected to database  
+Wed Jun 14 2023 17:7:36 [BTEB Result] info: [
+  {
+    "subjectCode": "2",
+    "subjectName": "3",
+    "subjectCredit": 3,
+    "theoryMarks": 40,
+    "practicalMarks": 60,
+    "totalMarks": 100
+  },
+  {
+    "subjectCode": "25",
+    "subjectName": "25",
+    "subjectCredit": 150,
+    "theoryMarks": 2,
+    "practicalMarks": 69072,
+    "totalMarks": 69074
+  },
+  {
+    "subjectCode": "2",
+    "subjectName": "3",
+    "subjectCredit": 3,
+    "theoryMarks": 40,
+    "practicalMarks": 60,
+    "totalMarks": 100
+  },
+  {
+    "subjectCode": "25",
+    "subjectName": "25",
+    "subjectCredit": 150,
+    "theoryMarks": 3,
+    "practicalMarks": 69073,
+    "totalMarks": 69076
+  },
+  {
+    "subjectCode": "2",
+    "subjectName": "3",
+    "subjectCredit": 3,
+    "theoryMarks": 40,
+    "practicalMarks": 60,
+    "totalMarks": 100
+  },
+  {
+    "subjectCode": "25",
+    "subjectName": "25",
+    "subjectCredit": 150,
+    "theoryMarks": 4,
+    "practicalMarks": 69074,
+    "totalMarks": 69078
+  },
+  {
+    "subjectCode": "0",
+    "subjectName": "6",
+    "subjectCredit": 2,
+    "theoryMarks": 0,
+    "practicalMarks": 0,
+    "totalMarks": 0
+  },
+  {
+    "subjectCode": "50",
+    "subjectName": "50",
+    "subjectCredit": 100,
+    "theoryMarks": 5,
+    "practicalMarks": 69075,
+    "totalMarks": 69080
+  },
+  {
+    "subjectCode": "2",
+    "subjectName": "0",
+    "subjectCredit": 2,
+    "theoryMarks": 40,
+    "practicalMarks": 60,
+    "totalMarks": 100
+  },
+  {
+    "subjectCode": "3",
+    "subjectName": "3",
+    "subjectCredit": 4,
+    "theoryMarks": 60,
+    "practicalMarks": 90,
+    "totalMarks": 150
+  },
+  {
+    "subjectCode": "25",
+    "subjectName": "25",
+    "subjectCredit": 200,
+    "theoryMarks": 7,
+    "practicalMarks": 65853,
+    "totalMarks": 65860
+  },
+  {
+    "subjectCode": "2",
+    "subjectName": "0",
+    "subjectCredit": 2,
+    "theoryMarks": 40,
+    "practicalMarks": 60,
+    "totalMarks": 100
+  },
+  {
+    "subjectCode": "100",
+    "subjectName": "Total",
+    "subjectCredit": 13,
+    "theoryMarks": 18,
+    "practicalMarks": 19,
+    "totalMarks": 37
+  },
+  {
+    "subjectCode": "260",
+    "subjectName": "390",
+    "subjectCredit": 150,
+    "theoryMarks": 150,
+    "practicalMarks": 950,
+    "totalMarks": 1100
+  },
+  {
+    "subjectCode": "69072",
+    "subjectName": "Solid and Hazardous Waste Management                T   P   C",
+    "subjectCredit": 2,
+    "theoryMarks": 3,
+    "practicalMarks": 3,
+    "totalMarks": 6
+  },
+  {
+    "subjectCode": "69073",
+    "subjectName": "Industrial Pollution Control Engineering           T   P   C",
+    "subjectCredit": 2,
+    "theoryMarks": 3,
+    "practicalMarks": 3,
+    "totalMarks": 6
+  },
+  {
+    "subjectCode": "69074",
+    "subjectName": "Application of Environmental Software & Project                T  P  C",
+    "subjectCredit": 0,
+    "theoryMarks": 6,
+    "practicalMarks": 2,
+    "totalMarks": 8
+  },
+  {
+    "subjectCode": "69075",
+    "subjectName": "DISASTER MANAGEMENT           T  P  C",
+    "subjectCredit": 2,
+    "theoryMarks": 0,
+    "practicalMarks": 2,
+    "totalMarks": 2
+  }
+] 
+Wed Jun 14 2023 17:12:42 [BTEB Result] info: Server is running at port 7070 
+Wed Jun 14 2023 17:12:45 [BTEB Result] info: Connected to database  
+Wed Jun 14 2023 17:13:28 [BTEB Result] info: Server is running at port 7070 
+Wed Jun 14 2023 17:13:30 [BTEB Result] info: [
+  {
+    "subjectCode": "69072",
+    "subjectName": "Solid and Hazardous Waste  \nManagement",
+    "subjectCredit": 2,
+    "theoryMarks": 3,
+    "practicalMarks": 3,
+    "totalMarks": 6
+  },
+  {
+    "subjectCode": "69073",
+    "subjectName": "Industrial Pollution Control \nEngineering",
+    "subjectCredit": 2,
+    "theoryMarks": 3,
+    "practicalMarks": 3,
+    "totalMarks": 6
+  },
+  {
+    "subjectCode": "69074",
+    "subjectName": "Application of Environmental \nSoftware and Project",
+    "subjectCredit": 0,
+    "theoryMarks": 6,
+    "practicalMarks": 2,
+    "totalMarks": 8
+  },
+  {
+    "subjectCode": "69075",
+    "subjectName": "Disaster Management",
+    "subjectCredit": 2,
+    "theoryMarks": 0,
+    "practicalMarks": 2,
+    "totalMarks": 2
+  },
+  {
+    "subjectCode": "69076",
+    "subjectName": "Environmental Hydrology & \nWater Resources  Engineering",
+    "subjectCredit": 3,
+    "theoryMarks": 3,
+    "practicalMarks": 4,
+    "totalMarks": 7
+  },
+  {
+    "subjectCode": "65853",
+    "subjectName": "Innovation & Entrepreneurship",
+    "subjectCredit": 2,
+    "theoryMarks": 0,
+    "practicalMarks": 2,
+    "totalMarks": 2
+  },
+  {
+    "subjectCode": "100",
+    "subjectName": "Total",
+    "subjectCredit": 13,
+    "theoryMarks": 18,
+    "practicalMarks": 19,
+    "totalMarks": 37
+  },
+  {
+    "subjectCode": "69072",
+    "subjectName": "Solid and Hazardous Waste Management                T   P   C",
+    "subjectCredit": 2,
+    "theoryMarks": 3,
+    "practicalMarks": 3,
+    "totalMarks": 6
+  },
+  {
+    "subjectCode": "69073",
+    "subjectName": "Industrial Pollution Control Engineering           T   P   C",
+    "subjectCredit": 2,
+    "theoryMarks": 3,
+    "practicalMarks": 3,
+    "totalMarks": 6
+  },
+  {
+    "subjectCode": "69074",
+    "subjectName": "Application of Environmental Software & Project                T  P  C",
+    "subjectCredit": 0,
+    "theoryMarks": 6,
+    "practicalMarks": 2,
+    "totalMarks": 8
+  },
+  {
+    "subjectCode": "69075",
+    "subjectName": "DISASTER MANAGEMENT           T  P  C",
+    "subjectCredit": 2,
+    "theoryMarks": 0,
+    "practicalMarks": 2,
+    "totalMarks": 2
+  },
+  {
+    "subjectCode": "69076",
+    "subjectName": "ENVIRONMENTAL HYDROLOGY & WATER RESOURCES ENGINEERING \n                       T P C",
+    "subjectCredit": 3,
+    "theoryMarks": 3,
+    "practicalMarks": 4,
+    "totalMarks": 7
+  },
+  {
+    "subjectCode": "65853",
+    "subjectName": "INNOVATION & ENTREPRENEURSHIP  \n                T   P   C",
+    "subjectCredit": 2,
+    "theoryMarks": 0,
+    "practicalMarks": 2,
+    "totalMarks": 2
+  }
+] 
+Wed Jun 14 2023 17:13:32 [BTEB Result] info: Connected to database  

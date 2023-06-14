@@ -16,37 +16,33 @@ const uploadCreateController = async (req, res) => {
     const pdfFilePath = `./uploadsCurriculam/${filename}`
 
     pdf(fs.readFileSync(pdfFilePath)).then(data => {
-      // Extract the table rows using regular expressions
-      const tableRegex =
-        /(\d+)\s+(.*?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)/g
-      let match
-      const tableData = []
+      const text = data.text
 
-      while ((match = tableRegex.exec(data.text)) !== null) {
-        const row = {
-          slNo: match[1],
-          subject: match[2],
-          code: match[3],
-          name: match[4],
-          tpC: match[5],
-          marksTotal: match[6],
-          theoryPractical: match[7],
-          contAssessFinalExam: match[8],
+      const regex = /(\d+)\s+([A-Za-z\s&]+)\s+(\d+)\s+(\d+)\s+(\d+)\s+/g
+      let match
+      const subjects = []
+
+      while ((match = regex.exec(text)) !== null) {
+        const subjectCode = match[1]
+        const subjectName = match[2].trim()
+        const subjectCredit = parseInt(match[3])
+        const theoryMarks = parseInt(match[4])
+        const practicalMarks = parseInt(match[5])
+        const totalMarks = theoryMarks + practicalMarks
+
+        const subjectData = {
+          subjectCode,
+          subjectName,
+          subjectCredit,
+          theoryMarks,
+          practicalMarks,
+          totalMarks,
         }
 
-        tableData.push(row)
+        subjects.push(subjectData)
       }
 
-      logger.info(JSON.stringify(tableData, null, 2))
-      // Process the extracted table data as needed
-
-      // Save the data to the database using the CurriculamModel
-
-      return res.status(200).json({
-        success: true,
-        message: 'Data extracted successfully',
-        data: tableData,
-      })
+      logger.info(JSON.stringify(subjects, null, 2))
     })
   } catch (error) {
     errorLogger.error('An error occurred:', error)
