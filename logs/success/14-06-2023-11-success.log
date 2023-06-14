@@ -1,0 +1,158 @@
+Wed Jun 14 2023 11:26:27 [BTEB Result] info: Server is running at port 7070 
+Wed Jun 14 2023 11:26:30 [BTEB Result] info: Connected to database  
+Wed Jun 14 2023 11:26:40 [BTEB Result] info: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] 
+Wed Jun 14 2023 11:27:38 [BTEB Result] info: Server is running at port 7070 
+Wed Jun 14 2023 11:27:41 [BTEB Result] info: Connected to database  
+Wed Jun 14 2023 11:28:4 [BTEB Result] info: [
+  {
+    "slNo": "2",
+    "subject": "3",
+    "code": "3",
+    "name": "40",
+    "tpC": "60",
+    "marksTotal": "25",
+    "theoryPractical": "25",
+    "contAssessFinalExam": "150"
+  },
+  {
+    "slNo": "2",
+    "subject": "3",
+    "code": "3",
+    "name": "40",
+    "tpC": "60",
+    "marksTotal": "25",
+    "theoryPractical": "25",
+    "contAssessFinalExam": "150"
+  },
+  {
+    "slNo": "2",
+    "subject": "3",
+    "code": "3",
+    "name": "40",
+    "tpC": "60",
+    "marksTotal": "25",
+    "theoryPractical": "25",
+    "contAssessFinalExam": "150"
+  },
+  {
+    "slNo": "0",
+    "subject": "6",
+    "code": "2",
+    "name": "0",
+    "tpC": "0",
+    "marksTotal": "50",
+    "theoryPractical": "50",
+    "contAssessFinalExam": "100"
+  },
+  {
+    "slNo": "3",
+    "subject": "3",
+    "code": "4",
+    "name": "60",
+    "tpC": "90",
+    "marksTotal": "25",
+    "theoryPractical": "25",
+    "contAssessFinalExam": "200"
+  },
+  {
+    "slNo": "65853",
+    "subject": "Innovation & Entrepreneurship",
+    "code": "2",
+    "name": "0",
+    "tpC": "2",
+    "marksTotal": "40",
+    "theoryPractical": "60",
+    "contAssessFinalExam": "0"
+  },
+  {
+    "slNo": "100",
+    "subject": "Total",
+    "code": "13",
+    "name": "18",
+    "tpC": "19",
+    "marksTotal": "260",
+    "theoryPractical": "390",
+    "contAssessFinalExam": "150"
+  }
+] 
+Wed Jun 14 2023 11:36:29 [BTEB Result] info: Server is running at port 7070 
+Wed Jun 14 2023 11:36:32 [BTEB Result] info: Connected to database  
+Wed Jun 14 2023 11:36:57 [BTEB Result] info: No matching data found in the PDF. 
+Wed Jun 14 2023 11:38:3 [BTEB Result] info: Server is running at port 7070 
+Wed Jun 14 2023 11:38:8 [BTEB Result] info: [] 
+Wed Jun 14 2023 11:38:9 [BTEB Result] info: Connected to database  
+Wed Jun 14 2023 11:38:22 [BTEB Result] info: Server is running at port 7070 
+Wed Jun 14 2023 11:38:24 [BTEB Result] info: Server is running at port 7070 
+Wed Jun 14 2023 11:38:27 [BTEB Result] info: Connected to database  
+Wed Jun 14 2023 11:38:39 [BTEB Result] info: [
+  {
+    "slNo": "2",
+    "subject": "3",
+    "code": "3",
+    "name": "40",
+    "tpC": "60",
+    "marksTotal": "25",
+    "theoryPractical": "25",
+    "contAssessFinalExam": "150"
+  },
+  {
+    "slNo": "2",
+    "subject": "3",
+    "code": "3",
+    "name": "40",
+    "tpC": "60",
+    "marksTotal": "25",
+    "theoryPractical": "25",
+    "contAssessFinalExam": "150"
+  },
+  {
+    "slNo": "2",
+    "subject": "3",
+    "code": "3",
+    "name": "40",
+    "tpC": "60",
+    "marksTotal": "25",
+    "theoryPractical": "25",
+    "contAssessFinalExam": "150"
+  },
+  {
+    "slNo": "0",
+    "subject": "6",
+    "code": "2",
+    "name": "0",
+    "tpC": "0",
+    "marksTotal": "50",
+    "theoryPractical": "50",
+    "contAssessFinalExam": "100"
+  },
+  {
+    "slNo": "3",
+    "subject": "3",
+    "code": "4",
+    "name": "60",
+    "tpC": "90",
+    "marksTotal": "25",
+    "theoryPractical": "25",
+    "contAssessFinalExam": "200"
+  },
+  {
+    "slNo": "65853",
+    "subject": "Innovation & Entrepreneurship",
+    "code": "2",
+    "name": "0",
+    "tpC": "2",
+    "marksTotal": "40",
+    "theoryPractical": "60",
+    "contAssessFinalExam": "0"
+  },
+  {
+    "slNo": "100",
+    "subject": "Total",
+    "code": "13",
+    "name": "18",
+    "tpC": "19",
+    "marksTotal": "260",
+    "theoryPractical": "390",
+    "contAssessFinalExam": "150"
+  }
+] 

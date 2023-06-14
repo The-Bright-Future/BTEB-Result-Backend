@@ -1,24 +1,35 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const resultSchema = new Schema({
-    point: {
-        type: Number,
-        default: null,
-    },
-    referred: [Number],
-})
-
-const rollSchema = new Schema({
-    roll: {
-        type: Number,
+const subjectSchema = new Schema({
+    subjectCode: {
+        type: String,
         required: true,
         unique: true,
     },
-    result: [resultSchema],
+    subjectName: {
+        type: String,
+        required: true,
+    },
+    subjectCredit: {
+        type: Number,
+        required: true,
+    },
+    theoryMarks: {
+        type: Number,
+        required: true,
+    },
+    practicalMarks: {
+        type: Number,
+        required: true,
+    },
+    totalMarks: {
+        type: Number,
+        required: true,
+    },
 })
 
-const ResultModel = mongoose.model('Result', rollSchema)
+const Subject = mongoose.model('Subject', subjectSchema)
 
-module.exports = ResultModel
+module.exports = Subject
 

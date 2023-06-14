@@ -1,7 +1,9 @@
-const { info } = require("winston")
+const fs = require('fs')
+const pdf = require('pdf-parse')
+const { errorLogger, logger } = require('../../shared/loger')
+const CurriculamModel = require('./curriculam.models')
 
-// result.controller.js
-const uploadCreateController = (req, res) => {
+const uploadCreateController = async (req, res) => {
   try {
     if (!req.file) {
       res.status(400).json({ error: 'No file uploaded' })
@@ -9,18 +11,45 @@ const uploadCreateController = (req, res) => {
     }
 
     // Access uploaded file details
-    const { filename, mimetype, size } = req.file
+    const { filename } = req.file
 
-    // Perform desired operations with the uploaded file, such as saving to a database or processing it
+    const pdfFilePath = `./uploadsCurriculam/${filename}`
 
-    res.json({
-      filename,
-      mimetype,
-      size,
-      message: 'File uploaded successfully',
+    pdf(fs.readFileSync(pdfFilePath)).then(data => {
+      // Extract the table rows using regular expressions
+      const tableRegex =
+        /(\d+)\s+(.*?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)/g
+      let match
+      const tableData = []
+
+      while ((match = tableRegex.exec(data.text)) !== null) {
+        const row = {
+          slNo: match[1],
+          subject: match[2],
+          code: match[3],
+          name: match[4],
+          tpC: match[5],
+          marksTotal: match[6],
+          theoryPractical: match[7],
+          contAssessFinalExam: match[8],
+        }
+
+        tableData.push(row)
+      }
+
+      logger.info(JSON.stringify(tableData, null, 2))
+      // Process the extracted table data as needed
+
+      // Save the data to the database using the CurriculamModel
+
+      return res.status(200).json({
+        success: true,
+        message: 'Data extracted successfully',
+        data: tableData,
+      })
     })
   } catch (error) {
-    info.error('An error occurred:', error)
+    errorLogger.error('An error occurred:', error)
     res.status(500).json({ error: 'Internal server error' })
   }
 }
